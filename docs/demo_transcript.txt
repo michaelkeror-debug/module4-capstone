@@ -1,0 +1,30 @@
+..........                                                               [100%]
+10 passed, 1 deselected in 1.02s
+golden-set score: 3/3 = 1.00
+diagnose OK, all rows agree with router
+2026-10-13 21:16:55,514 tool=check_stock item=amoxicillin
+rag_smoke OK ['D2'] amoxicillin 5 clinics
+INFO:     Started server process [47050]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56322 - "GET /health HTTP/1.1" 200 OK
+{"service":"triage-api","version":"1.0.0","status":"healthy"}
+INFO:     127.0.0.1:56324 - "POST /token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56326 - "POST /triage HTTP/1.1" 200 OK
+{"urgency":"high","advice":"Please seek emergency medical care immediately at the nearest appropriate facility.","model_used":"triage-stub-v1","handled_for":"mercy"}
+INFO:     127.0.0.1:56328 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56330 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56332 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56334 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56336 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56338 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56340 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56342 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56344 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /health HTTP/1.1" 200 OK
+wrote perf_stub.json: p95=0.0011s over 10 samples
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [47050]
