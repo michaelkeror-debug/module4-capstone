@@ -1,0 +1,42 @@
+[
+  {
+    "sku": "AFY-01",
+    "title": "Oral rehydration salts sachet, 20.5 g",
+    "description": "ORS sachets for mixing with clean water. Clinic stock item.",
+    "image": "images/afy-01.jpg",
+    "image_tags": ["ors", "sachet", "rehydration", "salts"],
+    "category": "hydration"
+  },
+  {
+    "sku": "AFY-99",
+    "title": "Malaria rapid test kit, 25 tests",
+    "description": "Listing photo does not match the title.",
+    "image": "images/afy-99.jpg",
+    "image_tags": ["bandage", "roll", "gauze", "white"],
+    "category": "diagnostics"
+  },
+  {
+    "sku": "AFY-02",
+    "title": "Digital thermometer, forehead",
+    "description": "Non-contact thermometer for triage desk.",
+    "image": "images/afy-02.jpg",
+    "image_tags": ["thermometer", "digital", "forehead", "white"],
+    "category": "diagnostics"
+  },
+  {
+    "sku": "AFY-03",
+    "title": "First aid kit, 40 piece",
+    "description": "Basic wound care kit with bandages and antiseptic wipes.",
+    "image": "images/afy-03.jpg",
+    "image_tags": ["first", "aid", "kit", "bandage", "red", "box"],
+    "category": "first_aid"
+  },
+  {
+    "sku": "AFY-04",
+    "title": "Child immunisation schedule poster, A2",
+    "description": "Illustrated poster for clinic walls. Illustration only, no real photos.",
+    "image": "images/afy-04.png",
+    "image_tags": ["poster", "immunisation", "schedule", "child", "illustration"],
+    "category": "posters"
+  }
+]
