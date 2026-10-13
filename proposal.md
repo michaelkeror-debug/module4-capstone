@@ -1,9 +1,9 @@
-<!-- Change for your project: Path, Problem, and Milestones text below. Keep the headings. -->
+
 # Capstone proposal
 
 ## Path
 AfyaPlus Module 4 Capstone: integrated AI health-operations system
-# Alternative: Domain project in <your domain> with same skill checklist
+
 
 ## Problem
 Clinic coordinators in partner counties cannot quickly tell which patient messages are urgent or where medical supplies are. Messages sit in one queue, so a chest-pain report can wait behind a routine delivery question.
