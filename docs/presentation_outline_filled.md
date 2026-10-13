@@ -3,11 +3,6 @@ marp: true
 paginate: true
 ---
 
-# AfyaPlus Triage and Logistics
-Module 4 Capstone: integrated AI health-operations system
-
----
-
 # 1. Problem and user
 - **User:** clinic coordinators in partner counties
 - **Problem:** urgent patient messages sit in one queue with routine delivery and catalog questions
